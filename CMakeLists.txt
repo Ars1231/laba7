@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.29)
+project(untitled4)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(untitled4 main.cpp saveToFile.cpp loadFromFile.cpp)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
